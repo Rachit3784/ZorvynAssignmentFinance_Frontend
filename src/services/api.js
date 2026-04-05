@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8900/api',
+    baseURL: 'https://zorvynassignmentfinance-backend.onrender.com/api',
 });
 
 // Add a request interceptor
